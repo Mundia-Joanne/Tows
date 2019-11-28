@@ -1,6 +1,7 @@
 package com.example.tows;
 
 import android.os.AsyncTask;
+import android.util.Log;
 
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.LatLng;
@@ -15,9 +16,9 @@ import java.io.IOException;
 
 public class GetNearbyPlacesData extends AsyncTask<Object,String,String> {
 
-    String googlePlacesData;
-    GoogleMap googleMap;
-    String url;
+    private String googlePlacesData;
+    private GoogleMap googleMap;
+    private String url;
 
     @Override
     protected String doInBackground(Object... objects) {

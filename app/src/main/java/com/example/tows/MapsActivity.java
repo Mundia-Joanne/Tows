@@ -134,7 +134,7 @@ GoogleApiClient.OnConnectionFailedListener, LocationListener {
         currentLatitude = location.getLatitude();
         currentLongitude = location.getLongitude();
 
-        BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.navigation);
+        BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.big);
 
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(currentLatitude,currentLongitude),15.0f));
 
@@ -149,11 +149,11 @@ GoogleApiClient.OnConnectionFailedListener, LocationListener {
     }
 
     private void getNearByGarages() {
-        StringBuilder stringBuilder = new StringBuilder("https://maps.googleapis.com/maps/api/place/textsearch/json?query=garages&location=-1.3030381,36.8142597&radius=10&key=AIzaSyCxJ7qFs1sls1u-2BKRlCZSKeSlmTv_zvE");
-        stringBuilder.append("location"+String.valueOf(currentLatitude)+ ","+String.valueOf(currentLongitude));
-        stringBuilder.append("&radius=1000");
-        stringBuilder.append("&type=garages");
-        stringBuilder.append("&key"+getResources().getString(R.string.google_maps_key));
+        StringBuilder stringBuilder = new StringBuilder("https://maps.googleapis.com/maps/api/place/textsearch/json?query=garages&location=");
+        stringBuilder.append(currentLatitude);
+        stringBuilder.append(",");
+        stringBuilder.append(currentLongitude);
+        stringBuilder.append("&radius=1000&type=garages&key=AIzaSyCTcDcMGzlgTlV3GpKlsMY75KxpC7h4frg");
 
         String url = stringBuilder.toString();
        // Log.v("URL",url);

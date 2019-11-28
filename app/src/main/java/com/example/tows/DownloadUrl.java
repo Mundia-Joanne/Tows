@@ -42,8 +42,10 @@ public class DownloadUrl {
             e.printStackTrace();
         }
         finally {
-            inputStream.close();
-            httpsURLConnection.disconnect();
+            if(inputStream != null)
+                inputStream.close();
+            if(httpsURLConnection != null)
+                httpsURLConnection.disconnect();
         }
         return data;
 

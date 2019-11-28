@@ -79,9 +79,6 @@ public class MainActivity extends AppCompatActivity {
         );
 
         showSignInOptions();
-
-
-
     }
 
   /*  public void openMapsActivity(){
@@ -109,7 +106,6 @@ public class MainActivity extends AppCompatActivity {
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 Toast.makeText(this, ""+user.getEmail(), Toast.LENGTH_SHORT).show();
                 sign_out.setEnabled(true);
-
             }
             else
             {

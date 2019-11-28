@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:layout_width="190dp"
+        android:layout_height="200dp" />
+
+
+    <TextView
+        style="@android:style/Widget.Holo.Light.TextView"
+        android:layout_width="233dp"
+        android:layout_height="72dp"
+        android:background="#E91E63"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="449dp"
+        android:fontFamily="cursive"
+        android:text="Tow Trucks"
+        android:textColor="#3A3839"
+        android:textSize="55sp" />
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/garage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/btn_garage"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="275dp"
+        android:backgroundTint="#E91E63"
+        android:fontFamily="cursive"
+        android:text="Find Garage"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_marginTop="450dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/breakdown" />
+
+    <Button
+        android:id="@+id/tow_truck"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="156dp"
+        android:backgroundTint="#E91E63"
+        android:fontFamily="cursive"
+        android:text="Find Towtruck" />
+
+    <ImageView
+        android:layout_marginTop="570dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/exit" />
+
+    <Button
+        android:id="@+id/sign_out"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#E91E63"
+        android:fontFamily="cursive"
+        android:text="Sign Out" />
+
+</RelativeLayout>

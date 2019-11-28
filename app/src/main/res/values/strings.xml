@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tows</string>
+
+    <string name="facebook_application_id" translatable="false">599965793800574</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb599965793800574</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

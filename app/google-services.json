@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "116350362146",
+    "firebase_url": "https://tows-1a0b1.firebaseio.com",
+    "project_id": "tows-1a0b1",
+    "storage_bucket": "tows-1a0b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116350362146:android:70492ef5a1c687ed",
+        "android_client_info": {
+          "package_name": "com.example.tows"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116350362146-4m5gl5hcl8ho1hd9l6mkhq77mpdmj2il.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tows",
+            "certificate_hash": "2c875127923b722b9388e8911cdfc16b1bf333ce"
+          }
+        },
+        {
+          "client_id": "116350362146-g4gg4mhgvgd5cev142a738kvrvhsoi8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCJw2ykaqVaeLHrf1Mar0mA64mGtWV-6E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116350362146-g4gg4mhgvgd5cev142a738kvrvhsoi8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
